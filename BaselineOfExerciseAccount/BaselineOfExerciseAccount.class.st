@@ -41,7 +41,7 @@ BaselineOfExerciseAccount >> setUpDependencies: spec [
 		baseline: 'Chalten' 
 			with: [ spec 
 				repository: 'github://ba-st/Chalten:v8/source';
-				loads: #('{Chalten-Gregorian-Calendar}') ];
+				loads: #('Chalten-Gregorian-Calendar') ];
 		import: 'Chalten'.
 		
 	spec
