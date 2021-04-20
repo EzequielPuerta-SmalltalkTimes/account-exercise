@@ -33,7 +33,7 @@ BaselineOfExerciseAccount >> setUpDependencies: spec [
 	spec
 		baseline: 'Aconcagua' 
 			with: [ spec
-				repository: 'github://ba-st/Aconcagua:v{XX}/source';
+				repository: 'github://ba-st/Aconcagua:v8/source';
 				loads: #('Deployment') ];
 		import: 'Aconcagua'.
 
